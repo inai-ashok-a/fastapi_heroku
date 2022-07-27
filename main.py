@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 # from email_validator import  validate_email, EmailNotValidError
-from config.db import con
+# from config.db import con
 # from schemas.users import User
 # from models.users import users
 
