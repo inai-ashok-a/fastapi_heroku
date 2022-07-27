@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 # from email_validator import  validate_email, EmailNotValidError
-from config.db import con
+from config.db import create_engine
 # from schemas.users import User
 # from models.users import users
 
@@ -9,7 +9,7 @@ app=FastAPI();    #creating object for FastAPI()
 
 @app.get('/')
 async def root():
-    return  "Hello World Ashok to Heroku"
+    return  "Hello World Ashok to Heroku!!!"
 
 # @app.get('/api/users')                                  #used to fetch data from my sql
 # async def index():                                      #asynchronous function
