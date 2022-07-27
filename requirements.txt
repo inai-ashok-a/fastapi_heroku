@@ -35,4 +35,5 @@ uvicorn==0.18.2
 virtualenv==20.15.1
 watchfiles==0.15.0
 websockets==10.3
-sqlalchemy
+Sqlalchemy==1.3.19
+sqltap==0.3.11
